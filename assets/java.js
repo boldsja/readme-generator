@@ -3,8 +3,7 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    inquirer
-   .prompt([
+
       {
         name: "title",  
         type: "input",
@@ -43,12 +42,12 @@ const questions = [
       {
         type: "input",
         message: "Enter email address",
-        name: "tests"
+        name: "email"
       },
-])
-.then((response) =>
-    console.log(response)
-)];
+]
+// .then((response) =>
+//     console.log(response)
+// );
 
 
 
@@ -56,42 +55,56 @@ const questions = [
 // // TODO: Create a function to write README file
 // function writeToFile('readme-gen', data) {
 
-const data = 
-`
-## 
 
+
+
+// fs.writeFile('readme-gen.md', data, err => {
+//     if (err) {
+//       console.error(err)
+//       return
+//     }
+// })
+
+// // TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then(response => {
+        console.log(response);
+
+        const data = 
+`
+## ${response.title}
 
 ## Description
-
+${response.description}
 
 ## Installation
-
-
+${response.installation}
 ## Usage
-
-
+${response.usage}
 ## Contributing
-
-
+${response.contribution}
 ## Test Instructions
-
+${response.tests}
 
 ## License
 
 
 ## Questions
-`
-fs.writeFile('readme-gen.md', data, err => {
-    if (err) {
-      console.error(err)
-      return
-    }
-})
 
-// // TODO: Create a function to initialize app
-// function init() {}
+`
+
+        fs.writeFile('./readme-gen.md', data, err => {
+            if (err) {
+              console.error(err)
+              return
+            }
+        })
+    }
+    
+)}
 
 // // Function call to initialize app
-// init();
+init();
 
 
