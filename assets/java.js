@@ -45,17 +45,11 @@ const questions = [
         name: "email"
       },
 ]
-// .then((response) =>
-//     console.log(response)
-// );
-
 
 
 
 // // TODO: Create a function to write README file
 // function writeToFile('readme-gen', data) {
-
-
 
 
 // fs.writeFile('readme-gen.md', data, err => {
@@ -65,7 +59,7 @@ const questions = [
 //     }
 // })
 
-// // TODO: Create a function to initialize app
+//Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(response => {
@@ -80,21 +74,25 @@ ${response.description}
 
 ## Installation
 ${response.installation}
+
 ## Usage
 ${response.usage}
+
 ## Contributing
 ${response.contribution}
+
 ## Test Instructions
 ${response.tests}
 
 ## License
 
 
-## Questions
-
+## Questions?
+Reach out by email: ${response.email}
+Github: ${response.github}
 `
 
-        fs.writeFile('./readme-gen.md', data, err => {
+        fs.writeFile('readme-gen.md', data, err => {
             if (err) {
               console.error(err)
               return
