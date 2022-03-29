@@ -1,37 +1,38 @@
 
-## Readme generator
+## asdf
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ## Description
-a project to create a readme based on user input
+asdf
 
 ## Table of Contents
-    1. Installation
-    2. Usage
-    3. License
-    4. Contributing
-    5. Tests
-    6. Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
 ## Installation
-run node
+asdf
 
 ## Usage
-anyone can use
+asdf
 
 ## Contributing
-i contributed
+asdf
 
 ## Test Instructions
-run in node
+asdf
 
 ## License
-The Unlicense
+
+This app was written under the MIT license.
 
 ## Questions?
-Reach out by email: boldsja@gmail.com
-[Github](https://github.com/boldsja/) 
+Reach out by email: asdf
 
+[Github](https://github.com/asdf/) 
 
-## Video
-[Preview](./video.gif)

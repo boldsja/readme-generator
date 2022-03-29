@@ -47,7 +47,7 @@ const questions = [
       {
         type: "list",
         message: "Choose a license",
-        choices: ['MIT', 'The Unlicense', 'Apache 2.0'],
+        choices: ['MIT', 'The Unlicense', 'Apache 2.0', "None"],
         name: "license"
       },
 ]
@@ -65,28 +65,37 @@ const questions = [
 //     }
 // })
 
+function renderBadge(license){
+
+  if(license !== "None"){
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
+  return '';
+}
+
 //Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(response => {
         console.log(response);
 
+
         const data = 
 `
 ## ${response.title}
-
+${renderBadge(response.license)}
 
 
 ## Description
 ${response.description}
 
 ## Table of Contents
-    1. Installation
-    2. Usage
-    3. License
-    4. Contributing
-    5. Tests
-    6. Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
 ## Installation
@@ -102,11 +111,14 @@ ${response.contribution}
 ${response.tests}
 
 ## License
-${response.license}
+
+This app was written under the ${response.license} license.
 
 ## Questions?
 Reach out by email: ${response.email}
+
 [Github](https://github.com/${response.github}/) 
+
 `
 
         fs.writeFile('readme-gen.md', data, err => {
@@ -121,5 +133,7 @@ Reach out by email: ${response.email}
 
 // // Function call to initialize app
 init();
+
+
 
 
