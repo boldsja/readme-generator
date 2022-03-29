@@ -1,8 +1,6 @@
 
 ## Readme generator
 
-
-
 ## Description
 a project to create a readme based on user input
 
@@ -33,3 +31,7 @@ The Unlicense
 ## Questions?
 Reach out by email: boldsja@gmail.com
 [Github](https://github.com/boldsja/) 
+
+
+## Video
+[Preview](./video.gif)
