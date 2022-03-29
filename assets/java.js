@@ -44,6 +44,12 @@ const questions = [
         message: "Enter email address",
         name: "email"
       },
+      {
+        type: "list",
+        message: "Choose a license",
+        choices: ['MIT', 'The Unlicense', 'Apache 2.0'],
+        name: "license"
+      },
 ]
 
 
@@ -72,6 +78,15 @@ function init() {
 ## Description
 ${response.description}
 
+## Table of Contents
+    1. Installation
+    2. Usage
+    3. License
+    4. Contributing
+    5. Tests
+    6. Questions
+
+
 ## Installation
 ${response.installation}
 
@@ -85,11 +100,11 @@ ${response.contribution}
 ${response.tests}
 
 ## License
-
+${response.license}
 
 ## Questions?
 Reach out by email: ${response.email}
-Github: ${response.github}
+[Github](https://github.com/${response.github}/) 
 `
 
         fs.writeFile('readme-gen.md', data, err => {
