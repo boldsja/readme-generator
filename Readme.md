@@ -28,3 +28,11 @@ This app was written under the MIT license.
 Reach out by email: boldsja@gmail.com
 
 [Github](https://github.com/boldsja/) 
+
+## Walkthrough Video
+
+
+https://user-images.githubusercontent.com/100175351/164590307-66749b2d-03de-4247-969b-11f6cf39239f.mp4
+
+
+
