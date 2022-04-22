@@ -1,10 +1,10 @@
 
-## Project Management
+## Readme Generator
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
 ## Description
-This project writes a file for managers
+The purpose of this application is to create a Readme file using node and user input in the command line.
 
 ## Table of Contents
   * [Installation](#installation)
@@ -16,23 +16,23 @@ This project writes a file for managers
 
 
 ## Installation
-Run node java.js
+Run node java.js in terminal
 
 ## Usage
-Anyone can use freely
+
 
 ## Contributing
-Myself
+Jasmine Bolds
 
 ## Test Instructions
-no tests
+
 
 ## License
 
 This app was written under the MIT license.
 
 ## Questions?
-Reach out by email: tes@test.com
+Reach out by email: boldsja@gmail.com
 
-[Github](https://github.com/testtest/) 
+[Github](https://github.com/boldsja/) 
 

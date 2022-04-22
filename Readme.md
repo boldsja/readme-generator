@@ -1,12 +1,30 @@
-# Readme Generator
-
-## Objective
-The purpose of this project is to have a Readme file generated based on user input. There is no link to final page for this product, as it was done using node.
-
-## Screenshot
-
-![Final page screenshot](./assets/screenshot.png) 
+## Readme Generator
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-## Link to Repo
-[Github Repo](https://github.com/boldsja/readme-generator)
+## Description
+The purpose of this application is to create a Readme file using node and user input in the command line.
+
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+
+## Installation
+Run node java.js in terminal
+
+## Contributing
+Jasmine Bolds
+
+## License
+
+This app was written under the MIT license.
+
+## Questions?
+Reach out by email: boldsja@gmail.com
+
+[Github](https://github.com/boldsja/) 
