@@ -1,10 +1,10 @@
 
-## NoteTaker
+## Project Management
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
 ## Description
-The purpose of this project is to have an app that you can take notes in and the note will be saved.
+This project writes a file for managers
 
 ## Table of Contents
   * [Installation](#installation)
@@ -16,23 +16,23 @@ The purpose of this project is to have an app that you can take notes in and the
 
 
 ## Installation
-It uses node to start code and run from the server.
+Run node java.js
 
 ## Usage
-
+Anyone can use freely
 
 ## Contributing
-Contributors include: Brian Gearty (tutor)
+Myself
 
 ## Test Instructions
-
+no tests
 
 ## License
 
 This app was written under the MIT license.
 
 ## Questions?
-Reach out by email: boldsja@gmail.com
+Reach out by email: tes@test.com
 
-[Github](https://github.com/boldsja/) 
+[Github](https://github.com/testtest/) 
 

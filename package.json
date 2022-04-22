@@ -1,7 +1,7 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "The purpose of this project is to have a Readme file generated based on user input. There is no link to final page for this product, as it was done using node.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/boldsja/readme-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.2"
-  }
+  },
+  "devDependencies": {}
 }
